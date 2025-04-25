@@ -5,7 +5,7 @@ on:
     branches:
       - main
   schedule:
-    - cron: '48 24 * * *'   # 06:48 giờ Hà Nội
+    - cron: '48 0 * * *'   # 06:48 giờ Hà Nội
     - cron: '48 4 * * *'    # 10:48 giờ Hà Nội
     - cron: '48 8 * * *'    # 14:48 giờ Hà Nội
     - cron: '48 11 * * *'   # 17:48 giờ Hà Nội
