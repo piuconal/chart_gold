@@ -56,9 +56,9 @@ def send_photo(file_path, caption):
         data = {"chat_id": CHAT_ID, "caption": caption}
         response = requests.post(url, files=files, data=data)
         if response.status_code == 200:
-            print(f"📤")
+            print(f"done")
         else:
-            print(f"❌")
+            print(f"error")
 
 # ==== Thực thi toàn bộ ====
 def main():
